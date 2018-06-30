@@ -1,7 +1,7 @@
 # Khaled-Alaa---F.T-of-ESD
 XIOT Filtration Task of Embedded Systems Development Internship.
 
-This program and functions implement with C language and working on AVR 32 only.
+This project and its included functions implement with C language and working on AVR 32 only.
 
 To setup this project you can open it with any IDE work with C and burn hex file to AVR 32 controller. I usually use Eclipse with AVR plug.
 
@@ -18,19 +18,19 @@ Instraction to setup hardware :
 - I use the target function (XIOT_SwitchIntererruptLED() ) 3 times with 3 switches for 3 LEDs - each switch for one LED.
 - All switches programed with bullup resister on software, so you must connected it with ground, it is active low.
 - All LED's active high.
-- XIOT_SwitchIntererruptLED()_function_ can use for just 3 switches because AVR 32 have just 3 prepheral interrupts, And I descriped anther way to creat more than 3 interrupt switches on ABOUT.md file.
+- XIOT_SwitchIntererruptLED()_function_ can use for just 3 switches because AVR 32 have just 3 external interrupts, And I descriped another way to create more than 3 interrupt switches on ABOUT.md file at point (5).
 
-1- XIOT_SwitchIntererruptLED(0); _Switch set on PORTD (pin 2) and LED set on PORTD (pin 4)_
+1- XIOT_SwitchIntererruptLED(0); _Switch set on PORTD (pin 2) and its LED set on PORTD (pin 4)_
 
-2- XIOT_SwitchIntererruptLED(1); _Switch set on PORTD (pin 3) and LED set on PORTD (pin 5)_
+2- XIOT_SwitchIntererruptLED(1); _Switch set on PORTD (pin 3) and its LED set on PORTD (pin 5)_
 
-3- XIOT_SwitchIntererruptLED(2); _Switch set on PORTB (pin 2) and LED set on PORTD (pin 6)_
+3- XIOT_SwitchIntererruptLED(2); _Switch set on PORTB (pin 2) and its LED set on PORTD (pin 6)_
 
 4- Tx _set on PORTD (pin 1)_
 
 5- Rx _set on PORTD (pin 0)_
 
-Used Tx & Rx with TTL to USB to send data to any application monitor like (Docklight).
+Use Tx & Rx with TTL to USB (or another way you comfort with) to send data to any application monitor like (Docklight).
 
 
 Assumptions :
@@ -40,4 +40,4 @@ Assumptions :
 
 Issues :
 
--> May face an inaccurate behavior if you use bouncing switches, but if ues test this project with any simulation application (like Proteus) you will not face any problem.
+-> May face an inaccurate behavior if you use bouncing switches, but if ues test this project with any simulation application (like :  Proteus) you will not face any problem.
