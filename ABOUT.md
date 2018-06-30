@@ -43,4 +43,4 @@ Expriance :
 -> And there are another projects mention in my CV.
 
 
-- I'm very happy with this task, It's make my get brainstorming and good training to work around to get job done.
+- I'm very happy with this task, It's make my get brainstorming and good training of work around to get job done.
