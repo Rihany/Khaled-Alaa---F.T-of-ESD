@@ -6,6 +6,7 @@ Language of implementation in C language.
 
 Usually I prefer to not use standard libraries, Because of I don't know what is literally include, and it's usually include unused functionalities, and this waste a lot of execution time in run time, so most of program I used my drivers.
 
+
 Program content:
 
 1- File.h Folder include :
@@ -30,6 +31,7 @@ Program content:
 
 6- main.c , this is the main code , calling thier the functions needed for implementation and implement the funciton of task(XIOT_SwitchIntererruptLED() ), and use it in main function for 3 times to access 3 switches and 3 LEDs.
 
+
 Expriance :
 
 -> Language and framwork expriance : I implement with C on AVR for many projects ,also woke on many internal or external prepherals, such as:
@@ -40,4 +42,5 @@ Expriance :
 
 -> And there are another projects mention in my CV.
 
--> I'm very happy with this task, It's make my get brainstorming and good training to work around to get job done.
+
+- I'm very happy with this task, It's make my get brainstorming and good training to work around to get job done.
