@@ -3,6 +3,7 @@ XIOT Filtration Task of Embedded Systems Development Internship.
 
 This program and functions built and working on AVR 32 only.
 
+
 Instraction :
 
 1- XIOT_SwitchIntererruptLED()_function_ can use for just 3 times because AVR 32 have just 3 prepheral interrupts.
@@ -19,9 +20,11 @@ Instraction :
 
 Used Tx & Rx with TTL to USB to send data to any application monitor like (Docklight).
 
+
 Assumptions :
 
 -> Assume that switches have no bouncing .. normally there is ways to decrease bouncing effect by software but it's not accurate at all, The accurate one is the debouncing switches by hardware.
+
 
 Issues :
 
