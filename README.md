@@ -1,17 +1,7 @@
 # Khaled-Alaa---F.T-of-ESD
-XIOT Filtration Task of Embedded Systems Development Track.
+XIOT Filtration Task of Embedded Systems Development Internship.
 
 This program and functions built and working on AVR 32 only.
-
-Usualy I prefer to unuse stander libraries, so most of program I use my drivers.
-
-Program prepherals:
-
-1- UART to send serial data
-
-2- ADC to read digital measure temptature form temperature sensor
-
-3- Timer interrupt to send temperature data every 3 second (not nessery to ues timer interrupt to send data in certin time, may uesd while with _delaay function_)
 
 Instraction :
 
@@ -29,7 +19,10 @@ Instraction :
 
 Used Tx & Rx with TTL to USB to send data to any application monitor like (Docklight).
 
-Assumptions:
+Assumptions :
 
 -> Assume that switches have no bouncing .. normally there is ways to decrease bouncing effect by software but it's not accurate at all, The accurate one is the debouncing switches by hardware.
 
+Issues :
+
+-> May face an inaccurate behavior if you use bouncing switches.
